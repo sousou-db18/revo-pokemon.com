@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revo-Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="welcome-screen" style="position:fixed; inset:0; background: #000 url('mincraft.png') no-repeat center center/contain; z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+        
+        <div style="position:absolute; inset:0; background:rgba(0,0,0,0.4); z-index:1;"></div>
+
+        <img src="revo_poke_Logo_Finale-removebg-preview.png" style="max-width:220px; margin-bottom:30px; image-rendering:pixelated; position:relative; z-index:2;">
+        <button id="btn-entrer" class="menu-btn" style="padding:20px 40px; cursor:pointer; position:relative; z-index:2;">ENTRER SUR LE SITE</button>
+    </div>
+
+    <video autoplay loop muted playsinline class="background-video">
+        <source src="14 Elegant old money outfit ideas that bring together comfort beauty and useful ideas you will actually try for creators who love polished and - Pin-22166223164415731.mp4" type="video/mp4">
+    </video>
+
+    <audio id="bg-music" loop src="Minecraft Volume Alpha - 11 - Mice on Venus.mp3"></audio>
+
+    <div class="overlay"></div>
+
+    <main class="menu">
+
+        <img src="revo_poke_Logo_Finale-removebg-preview.png" alt="Logo Revo Pokemon" class="logo">
+
+        <h1>REVO-POKEMON</h1>
+
+        <div class="buttons">
+
+            <button class="menu-btn" id="btn-galerie">Galerie</button>
+
+            <button class="menu-btn" id="btn-ip">Jouer(Copier l'IP)</button>
+
+            <button class="menu-btn" onclick="window.open('https://discord.gg/G5Z63D9w', '_blank')">Discord</button>
+
+            <div class="bottom-buttons">
+                <button id="btn-credit" class="small-btn">Crédit</button>
+                <button class="small-btn" onclick="quitterLeSite()">Quitter</button>
+                <button id="btn-mute" class="mute-btn">🔊</button>
+            </div>
+
+        </div>
+
+    </main>
+    
+    <script src="script.js"></script>    
+</body>
+</html>
